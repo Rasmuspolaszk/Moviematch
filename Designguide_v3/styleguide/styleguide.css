@@ -38,14 +38,35 @@ body {
   display: block;
 }
 
+.color {
+  border-style: solid;
+  border-width: 5px;
+  border-color: white;
+  margin-bottom: 5px;
+  padding-left: 10px;
+}
+
 .color.--primary {
-  background-color: #0f0f1a;
+  background: linear-gradient(
+    135deg,
+    rgba(20, 44, 43, 1) 0%,
+    rgba(29, 29, 53, 1) 100%
+  );
+  color: white;
 }
 
 .color.--like {
-  background-color: #00ed8f;
+  background-color: #00e864;
 }
 
 .color.--dislike {
-  background-color: #e30d28;
+  background-color: #d90000;
+}
+
+.color.--option {
+  background-color: #3c464f;
+}
+
+.color.--highlight {
+  background-color: #00a3ff;
 }
