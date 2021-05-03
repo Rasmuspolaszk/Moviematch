@@ -1,9 +1,9 @@
-@use '../general' as *; /* this enables the usage of all variables and mixins from the general folder */
+@use 'general' as *; /* this enables the usage of all variables and mixins from the general folder */
 
-.button{
+.Button{
 
     &__save{
-        color: #00E77E;
+        background-color: #00E77E;
         width: 250px ;
         height: 50px;
     }
