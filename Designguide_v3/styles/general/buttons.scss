@@ -1,10 +1,15 @@
 @use 'general' as *; /* this enables the usage of all variables and mixins from the general folder */
 
-.Button{
-
-    &__save{
-        background-color: #00E77E;
-        width: 250px ;
-        height: 50px;
-    }
+.button {
+  background: linear-gradient(
+    135deg,
+    rgba(0, 231, 126, 1) 0%,
+    rgba(0, 232, 93, 1) 100%
+  );
+  max-width: 175px;
+  border-radius: 5px;
+  font-size: 1rem;
+  height: 35px;
+  line-height: 35px;
+  text-align: center;
 }
