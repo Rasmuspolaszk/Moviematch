@@ -37,3 +37,44 @@ body {
 .menu__item {
   display: block;
 }
+
+/* Color styles */
+.color {
+  border-style: solid;
+  border-width: 5px;
+  border-color: white;
+  margin-bottom: 5px;
+  padding-left: 10px;
+}
+
+.color.--primary {
+  background: linear-gradient(135deg, #142c2b 0%, #1d1d35 100%);
+  color: white;
+}
+
+.color.--like {
+  background-color: #00e864;
+}
+
+.color.--dislike {
+  background-color: #d90000;
+}
+
+.color.--option {
+  background-color: #3c464f;
+}
+
+.color.--highlight {
+  background-color: #00a3ff;
+}
+
+/* Button styles */
+.gButton {
+  background: linear-gradient(135deg, #00e77e 0%, #00e85d 100%);
+  max-width: 175px;
+  border-radius: 5px;
+  font-size: 1rem;
+  height: 35px;
+  line-height: 35px;
+  text-align: center;
+}
