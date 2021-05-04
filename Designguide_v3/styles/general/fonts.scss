@@ -1,2 +1,27 @@
 $font_title: "Oxygen", sans-serif;
 $font_body: "Noto Serif", serif;
+
+@font-face {
+  font-family: SFMONOregular;
+  src: url(../../../fonts/sf-mono-cufonfonts-webfont/SFMonoRegular.woff);
+}
+
+@font-face {
+  font-family: SFMONOlight;
+  src: url(../../../fonts/sf-mono-cufonfonts-webfont/SFMonoLight.woff);
+}
+
+@font-face {
+  font-family: SFMONOmedium;
+  src: url(../../../fonts/sf-mono-cufonfonts-webfont/SFMonoMedium.woff);
+}
+
+@font-face {
+  font-family: SFMONOsemibold;
+  src: url(../../../fonts/sf-mono-cufonfonts-webfont/SFMonoSemibold.woff);
+}
+
+@font-face {
+  font-family: SFMONObold;
+  src: url(../../../fonts/sf-mono-cufonfonts-webfont/SFMonoBold.woff);
+}

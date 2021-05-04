@@ -68,6 +68,26 @@ table {
   background-attachment: fixed;
 }
 
+@font-face {
+  font-family: SFMONOregular;
+  src: url(../../../fonts/sf-mono-cufonfonts-webfont/SFMonoRegular.woff);
+}
+@font-face {
+  font-family: SFMONOlight;
+  src: url(../../../fonts/sf-mono-cufonfonts-webfont/SFMonoLight.woff);
+}
+@font-face {
+  font-family: SFMONOmedium;
+  src: url(../../../fonts/sf-mono-cufonfonts-webfont/SFMonoMedium.woff);
+}
+@font-face {
+  font-family: SFMONOsemibold;
+  src: url(../../../fonts/sf-mono-cufonfonts-webfont/SFMonoSemibold.woff);
+}
+@font-face {
+  font-family: SFMONObold;
+  src: url(../../../fonts/sf-mono-cufonfonts-webfont/SFMonoBold.woff);
+}
 .menu {
   text-align: right;
   display: flex;
@@ -106,10 +126,12 @@ table {
 /* this enables the usage of all variables and mixins from the general folder */
 .button {
   background: linear-gradient(135deg, #00e77e 0%, #00e85d 100%);
-  max-width: 175px;
+  width: 274px;
   border-radius: 5px;
   font-size: 1rem;
   height: 35px;
   line-height: 35px;
   text-align: center;
+  font-family: SFMONOmedium;
+  border: none;
 }
