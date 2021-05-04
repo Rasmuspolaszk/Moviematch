@@ -1,0 +1,15 @@
+{
+	"folders": [
+		{
+			"name": "Moviematch",
+			"path": ".."
+		},
+		{
+			"name": "intro_to_sass",
+			"path": "../../../../Downloads/intro_to_sass"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "Moviematch"
+	}
+}
