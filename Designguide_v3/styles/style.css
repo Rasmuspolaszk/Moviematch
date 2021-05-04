@@ -171,6 +171,14 @@
 .facebook.--login {
   border: solid 1.5px #cecece;
   border-radius: 3px;
+  padding-left: 29.4px;
+  padding-top: 23.1px;
+  padding-right: 29.9px;
+  padding-bottom: 6.1px;
+}
+
+.greenbtncontainer {
+  margin: auto;
 }
 
 .genre {
