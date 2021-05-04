@@ -9,3 +9,33 @@
   color: #aaaaaa;
   font-size: 12px;
 }
+
+.infoText {
+  font-size: 12px;
+  color: #b7b7b7;
+}
+
+.header {
+  grid-area: header;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.main {
+  grid-area: main;
+}
+
+.footer {
+  grid-area: footer;
+}
+
+.gridContainer {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+  grid-template-areas:
+    "header"
+    "main"
+    "footer";
+}
