@@ -83,6 +83,27 @@
   height: 245.22px;
 }
 
+.genre {
+  max-width: 90%;
+  margin: auto;
+}
+
+.genre__list {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 5px;
+  max-width: 90%;
+}
+
+.genre__option {
+  width: 113px;
+}
+
+.genre__top {
+  display: flex;
+  justify-content: space-between;
+}
+
 /* Remember to add new modules here:
     @forward 'module_name';
 */

@@ -7,7 +7,7 @@
     <title>Genre selection</title>
     <link rel="stylesheet" href="../styles/style.css" />
   </head>
-  <body>
+  <body class="color --primary">
     <article class="logo">
       <img
         src="../../Media/Popcorntime_logo.svg"
@@ -18,16 +18,32 @@
     <main>
       <h1>Choose your preferred genres</h1>
       <section class="slider">
-        <article class="slider__score">
+        <article class="slider__range">
           <h4 class="slider__title">Score</h4>
+          <input
+            type="range"
+            class="slider__score"
+            name="vol"
+            min="0"
+            max="10"
+          />
         </article>
-        <article class="slider__score">
+        <article class="slider__range">
           <h4 class="slider__title">Release year</h4>
+          <input
+            type="range"
+            class="slider__year"
+            name="vol"
+            min="0"
+            max="10"
+          />
         </article>
       </section>
       <section class="genre">
-        <h3 class="genre__title">Genres</h3>
-        <h4 class="genre__addAll">+ Add All</h4>
+        <article class="genre__top">
+          <h3 class="genre__title">Genres</h3>
+          <h4 class="genre__addAll">+ Add All</h4>
+        </article>
         <article class="genre__list">
           <button class="genre__option">Thriller</button>
           <button class="genre__option">Action</button>
