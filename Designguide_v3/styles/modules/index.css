@@ -1,3 +1,48 @@
+.promotext--semibold {
+  font-family: SFMONOsemibold;
+  color: white;
+  font-size: 18px;
+}
+
+.promotext--light {
+  font-family: SFMONOlight;
+  color: #aaaaaa;
+  font-size: 12px;
+}
+
+.infoText {
+  font-size: 12px;
+  color: #b7b7b7;
+}
+
+.header {
+  -ms-grid-row: 1;
+  -ms-grid-column: 1;
+  grid-area: header;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.main {
+  -ms-grid-row: 2;
+  -ms-grid-column: 1;
+  grid-area: main;
+}
+
+.footer {
+  -ms-grid-row: 3;
+  -ms-grid-column: 1;
+  grid-area: footer;
+}
+
+.gridContainer {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+  grid-template-areas: "header" "main" "footer";
+}
+
 /* Remember to add new modules here:
     @forward 'module_name';
 */
