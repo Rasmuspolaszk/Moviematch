@@ -1,3 +1,38 @@
+.body {
+  font-family: SFMONOregular;
+}
+
+.title {
+  font-family: SFMONOregular;
+  text-align: center;
+  margin-bottom: 45px;
+  margin-top: 75px;
+  color: white;
+}
+
+.addAll__nav {
+  font-family: SFMONOregular;
+  display: flex;
+  flex-direction: row;
+}
+.addAll__btn {
+  font-family: SFMONOregular;
+}
+
+.services__list {
+  display: grid;
+  grid-template-rows: 1fr;
+}
+
+.services {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.services__title {
+  font-family: SFMONOregular;
+}
+
 .promotext--semibold {
   font-family: SFMONOsemibold;
   color: white;
@@ -41,6 +76,11 @@
   grid-template-columns: 1fr;
   grid-template-rows: 1fr 1fr 1fr;
   grid-template-areas: "header" "main" "footer";
+}
+
+.frontpicture {
+  width: 261.99px;
+  height: 245.22px;
 }
 
 /* Remember to add new modules here:
