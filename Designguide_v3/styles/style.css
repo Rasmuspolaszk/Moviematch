@@ -122,7 +122,6 @@
   margin-right: auto;
 }
 
-<<<<<<< HEAD
 .button {
   -ms-grid-row: 1;
   -ms-grid-column: 1;
@@ -169,8 +168,6 @@
   border-radius: 3px;
 }
 
-=======
->>>>>>> 1e003adde99d5232fb9ebd1c23968900744c9c15
 .genre {
   max-width: 90%;
   margin: auto;
@@ -338,9 +335,5 @@ table {
   text-align: center;
   font-family: SFMONOmedium;
   border: none;
-<<<<<<< HEAD
-=======
   align-items: center;
-  margin-left: 25px;
->>>>>>> 1e003adde99d5232fb9ebd1c23968900744c9c15
 }
