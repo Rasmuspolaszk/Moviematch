@@ -1,3 +1,35 @@
+.body {
+  font-family: SFMONOregular;
+}
+
+.title {
+  justify-content: center;
+}
+
+.addAll__nav {
+  font-family: SFMONOregular;
+  display: flex;
+  flex-direction: row;
+}
+
+.addAll__btn {
+  font-family: SFMONOregular;
+}
+
+.services__list {
+  display: grid;
+  grid-template-rows: 1fr;
+}
+
+.services {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.services__title {
+  font-family: SFMONOregular;
+}
+
 .promotext--semibold {
   font-family: SFMONOsemibold;
   color: white;
