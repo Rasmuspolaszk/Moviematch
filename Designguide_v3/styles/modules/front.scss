@@ -2,7 +2,7 @@
 .promotext--semibold {
   font-family: SFMONOsemibold;
   color: white;
-  font-size: 18px;
+  font-size: 19px;
   margin-left: 58px;
   margin-right: 74px;
   margin-bottom: 10px;
@@ -11,7 +11,7 @@
 .promotext--light {
   font-family: SFMONOlight;
   color: #aaaaaa;
-  font-size: 13px;
+  font-size: 14px;
   margin-left: 58px;
   margin-right: 74px;
 }
@@ -91,5 +91,11 @@ article.lowerGridcontainer {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  height: 125px;
+  height: 135px;
+  margin-top: 85px;
+
+}
+
+.loginLine{
+  margin-top: 8px;
 }
