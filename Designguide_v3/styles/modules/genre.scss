@@ -1,14 +1,16 @@
 .genre {
-  max-width: 90%;
-  margin: auto;
+  max-width: 97%;
+  margin-left: auto;
+  margin-top: 30px;
+
 
   &__list {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     grid-gap: 10px;
-    max-width: 100%;
-    padding-bottom: 35px;
-    padding-top: 25px;
+    max-width: 99%;
+    padding-bottom: 30px;
+    padding-top: 10px;
   }
   
   &__option {
@@ -47,7 +49,7 @@
   font-family: SFMONOmedium;
   border: none;
   align-items: center;
-  margin-top: 40px;
+  margin-top: 16px;
 }
 input[type=range].slider__score {
   width: 85%;
@@ -236,8 +238,13 @@ how to remove the virtical space around the range input in IE*/
 .slider__title {
         color: #848484;
         font-size: 15px;
-        margin-left: 33px;
-        padding-top: 7.5px;
+        margin-left: 28px;
+        padding-bottom: 6.5px;
+        padding-top: 24px;
         font-family: SFMONOsemibold;
 
+}
+
+.slider{
+  margin-top: -25px;
 }
