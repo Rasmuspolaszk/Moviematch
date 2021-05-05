@@ -59,35 +59,7 @@
 }
 
 //Grid for footer
-.button {
-  grid-area: guestbtn;
-}
 
-.linebreak {
-  grid-area: linebreakLeft;
-}
-
-.infoText {
-  grid-area: info;
-}
-
-.linebreak-reverse {
-  grid-area: linebreakRight;
-}
-
-.loginLine {
-  grid-area: loginline;
-}
-
-.lowerGridcontainer {
-  display: grid;
-  grid-template-columns: 1fr;
-  grid-template-rows: 1fr 1fr 1fr;
-  grid-template-areas:
-    "guestbtn guestbtn guestbtn"
-    "linebreakLeft info linebreakRight"
-    "loginline loginline loginline";
-}
 
 .google.--login,
 .apple.--login,
@@ -100,5 +72,24 @@
   padding-bottom: 6.1px;
 }
 
-.greenbtncontainer {
+.front__footer{
+  width: 274px;
+  margin: auto;
+}
+
+.lines{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.button .--guest {
+  margin-bottom: 10px;
+}
+
+article.lowerGridcontainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 125px;
 }
