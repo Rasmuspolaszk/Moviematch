@@ -425,6 +425,7 @@ how to remove the virtical space around the range input in IE*/
   padding-top: 7.5px;
   font-family: SFMONOsemibold;
 }
+
 .--primary {
   margin-left: 54px;
   margin-right: 54px;
@@ -482,9 +483,14 @@ how to remove the virtical space around the range input in IE*/
 .header {
   background: transparent;
   position: relative;
-  left: 25px;
   top: 25px;
 }
+.header__burgermenu {
+  background: transparent;
+  border: none;
+  width: 50px;
+}
+
 .movies {
   height: 560px;
 }
@@ -689,4 +695,9 @@ table {
   font-family: SFMONOmedium;
   border: none;
   align-items: center;
+}
+
+.--active {
+  background-color: #00A3FF;
+  border-color: transparent;
 }
