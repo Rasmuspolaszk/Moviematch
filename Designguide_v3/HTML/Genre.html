@@ -8,41 +8,25 @@
     <link rel="stylesheet" href="../styles/style.css" />
   </head>
   <body class="color --primary">
-    <article class="logo">
-      <img
-        src="../../Media/Popcorntime_logo.svg"
-        alt="Popcorntime logo"
-        class="popcorntime_logo"
-      />
-    </article>
+    <section>
+    <img class="popcorntime__logo" src="/Media/Popcorntime_logo.svg" alt="popcorntime_logo">
+    </section>
     <main>
-      <h1>Choose your preferred genres</h1>
+      <h1 class="title">Choose your preferred genres</h1>
       <section class="slider">
         <article class="slider__range">
           <h4 class="slider__title">Score</h4>
-          <input
-            type="range"
-            class="slider__score"
-            name="vol"
-            min="0"
-            max="10"
-          />
+          <input type="range" class="slider__score name="vol" min="0" max="10"/>
         </article>
         <article class="slider__range">
           <h4 class="slider__title">Release year</h4>
-          <input
-            type="range"
-            class="slider__year"
-            name="vol"
-            min="0"
-            max="10"
-          />
+          <input type="range" class="slider__year" name="vol" min="0" max="10" />
         </article>
       </section>
       <section class="genre">
-        <article class="genre__top">
-          <h3 class="genre__title">Genres</h3>
-          <h4 class="genre__addAll">+ Add All</h4>
+        <article class="addAll__nav">
+          <h3 class="addAll__title">Genres</h3>
+          <button class="addAll__btn">+ Add All</button>
         </article>
         <article class="genre__list">
           <button class="genre__option">Thriller</button>
@@ -63,6 +47,8 @@
         </article>
       </section>
     </main>
-    <button class="button --save">Save</button>
+    <article class="save">
+     <button class="button">Save</button>
+    </article>
   </body>
 </html>

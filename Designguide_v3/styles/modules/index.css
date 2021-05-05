@@ -8,46 +8,86 @@
   margin-bottom: 45px;
   margin-top: 75px;
   color: white;
+  font-size: 20px;
 }
 
 .addAll__nav {
   font-family: SFMONOregular;
   display: flex;
   flex-direction: row;
+  justify-content: space-between;
+  margin-bottom: 15px;
+}
+.addAll__title {
+  color: white;
+  font-size: 15px;
+  margin-left: 14px;
+  padding-top: 7.5px;
 }
 .addAll__btn {
+  background-color: #3c464f;
   font-family: SFMONOregular;
-}
-
-.services__list {
-  display: grid;
-  grid-template-rows: 1fr;
+  color: white;
+  margin-right: 14px;
+  border: none;
+  border-radius: 4px;
+  width: 126px;
+  height: 30px;
 }
 
 .services {
   display: grid;
-  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr;
 }
-
+.services__btn {
+  background-color: #3c464f;
+  color: white;
+  display: flex;
+  flex-direction: row;
+  height: 44px;
+  margin-left: 14px;
+  margin-right: 14px;
+  margin-top: 5px;
+  border: none;
+  border-radius: 5px;
+  align-items: center;
+}
 .services__title {
   font-family: SFMONOregular;
+  margin-left: 10px;
+}
+.services__logo {
+  align-items: center;
+  margin-left: 7px;
+}
+
+.save {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 30px;
 }
 
 .promotext--semibold {
   font-family: SFMONOsemibold;
   color: white;
   font-size: 18px;
+  margin-left: 58px;
+  margin-right: 74px;
+  margin-bottom: 10px;
 }
 
 .promotext--light {
   font-family: SFMONOlight;
   color: #aaaaaa;
-  font-size: 12px;
+  font-size: 13px;
+  margin-left: 58px;
+  margin-right: 74px;
 }
 
 .infoText {
   font-size: 12px;
   color: #b7b7b7;
+  font-family: SFMONOlight;
 }
 
 .header {
@@ -74,34 +114,316 @@
 .gridContainer {
   display: grid;
   grid-template-columns: 1fr;
-  grid-template-rows: 1fr 1fr 1fr;
+  grid-template-rows: 3fr 1fr 1fr;
   grid-template-areas: "header" "main" "footer";
 }
 
 .frontpicture {
   width: 261.99px;
   height: 245.22px;
+  padding-top: 81.3px;
+  padding-bottom: 56.5px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.button {
+  -ms-grid-row: 1;
+  -ms-grid-column: 1;
+  -ms-grid-column-span: 3;
+  grid-area: guestbtn;
+}
+
+.linebreak {
+  -ms-grid-row: 2;
+  -ms-grid-column: 1;
+  grid-area: linebreakLeft;
+}
+
+.infoText {
+  -ms-grid-row: 2;
+  -ms-grid-column: 2;
+  grid-area: info;
+}
+
+.linebreak-reverse {
+  -ms-grid-row: 2;
+  -ms-grid-column: 3;
+  grid-area: linebreakRight;
+}
+
+.loginLine {
+  -ms-grid-row: 3;
+  -ms-grid-column: 1;
+  -ms-grid-column-span: 3;
+  grid-area: loginline;
+}
+
+.lowerGridcontainer {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+  grid-template-areas: "guestbtn guestbtn guestbtn" "linebreakLeft info linebreakRight" "loginline loginline loginline";
+}
+
+.google.--login,
+.apple.--login,
+.facebook.--login {
+  border: solid 1.5px #cecece;
+  border-radius: 3px;
+  padding-left: 29.4px;
+  padding-top: 23.1px;
+  padding-right: 29.9px;
+  padding-bottom: 6.1px;
 }
 
 .genre {
   max-width: 90%;
   margin: auto;
 }
-
 .genre__list {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
-  grid-gap: 5px;
-  max-width: 90%;
+  grid-gap: 10px;
+  max-width: 100%;
+  padding-bottom: 35px;
+  padding-top: 25px;
 }
-
 .genre__option {
   width: 113px;
+  height: 44px;
+  background-color: Transparent;
+  background-repeat: no-repeat;
+  border: 2px solid black;
+  border-color: #CECECE;
+  border-radius: 5px;
+  cursor: pointer;
+  overflow: hidden;
+  outline: none;
+  font-family: SFMONOmedium;
+  color: white;
 }
-
 .genre__top {
   display: flex;
   justify-content: space-between;
+}
+
+input[type=range].slider__score {
+  width: 85%;
+  margin: 3.75px auto;
+  background-color: transparent;
+  -webkit-appearance: none;
+  display: block;
+}
+
+input[type=range].slider__score:focus {
+  outline: none;
+}
+
+input[type=range].slider__score::-webkit-slider-runnable-track {
+  background: rgba(255, 196, 84, 0.78);
+  border: 0;
+  border-radius: 2.9px;
+  width: 100%;
+  height: 7.5px;
+  cursor: pointer;
+}
+
+input[type=range].slider__score::-webkit-slider-thumb {
+  margin-top: -3.75px;
+  width: 15px;
+  height: 15px;
+  background: #ffffff;
+  border: 0;
+  border-radius: 50px;
+  cursor: pointer;
+  -webkit-appearance: none;
+}
+
+input[type=range].slider__score:focus::-webkit-slider-runnable-track {
+  background: #ffc454;
+}
+
+input[type=range].slider__score::-moz-range-track {
+  background: rgba(255, 196, 84, 0.78);
+  border: 0;
+  border-radius: 2.9px;
+  width: 100%;
+  height: 7.5px;
+  cursor: pointer;
+}
+
+input[type=range].slider__score::-moz-range-thumb {
+  width: 15px;
+  height: 15px;
+  background: #ffffff;
+  border: 0;
+  border-radius: 50px;
+  cursor: pointer;
+}
+
+input[type=range].slider__score::-ms-track {
+  background: transparent;
+  border-color: transparent;
+  border-width: 3.75px 0;
+  color: transparent;
+  width: 100%;
+  height: 7.5px;
+  cursor: pointer;
+}
+
+input[type=range].slider__score::-ms-fill-lower {
+  background: #ffc454;
+  border: 0;
+  border-radius: 5.8px;
+}
+
+input[type=range].slider__score::-ms-fill-upper {
+  background: rgba(255, 196, 84, 0.78);
+  border: 0;
+  border-radius: 5.8px;
+}
+
+input[type=range].slider__score::-ms-thumb {
+  width: 15px;
+  height: 15px;
+  background: #ffffff;
+  border: 0;
+  border-radius: 50px;
+  cursor: pointer;
+  margin-top: 0px;
+  /*Needed to keep the Edge thumb centred*/
+}
+
+input[type=range].slider__score:focus::-ms-fill-lower {
+  background: rgba(255, 196, 84, 0.78);
+}
+
+input[type=range].slider__score:focus::-ms-fill-upper {
+  background: #ffc454;
+}
+
+/*TODO: Use one of the selectors from https://stackoverflow.com/a/20541859/7077589 and figure out
+how to remove the virtical space around the range input in IE*/
+@supports (-ms-ime-align: auto) {
+  /* Pre-Chromium Edge only styles, selector taken from hhttps://stackoverflow.com/a/32202953/7077589 */
+  input[type=range].slider__score {
+    margin: 0;
+    /*Edge starts the margin from the thumb, not the track as other browsers do*/
+  }
+}
+input[type=range].slider__year {
+  width: 85%;
+  margin: 3.75px auto;
+  background-color: transparent;
+  -webkit-appearance: none;
+  display: block;
+  padding-bottom: 25px;
+}
+
+input[type=range].slider__year:focus {
+  outline: none;
+}
+
+input[type=range].slider__year::-webkit-slider-runnable-track {
+  background: rgba(0, 163, 255, 0.78);
+  border: 0;
+  border-radius: 6.3px;
+  width: 100%;
+  height: 7.5px;
+  cursor: pointer;
+}
+
+input[type=range].slider__year::-webkit-slider-thumb {
+  margin-top: -3.75px;
+  width: 15px;
+  height: 15px;
+  background: #ffffff;
+  border: 1.8px solid rgba(0, 0, 30, 0);
+  border-radius: 38px;
+  cursor: pointer;
+  -webkit-appearance: none;
+}
+
+input[type=range].slider__year:focus::-webkit-slider-runnable-track {
+  background: #1aacff;
+}
+
+input[type=range].slider__year::-moz-range-track {
+  background: rgba(0, 163, 255, 0.78);
+  border: 0;
+  border-radius: 6.3px;
+  width: 100%;
+  height: 7.5px;
+  cursor: pointer;
+}
+
+input[type=range].slider__year::-moz-range-thumb {
+  width: 15px;
+  height: 15px;
+  background: #ffffff;
+  border: 1.8px solid rgba(0, 0, 30, 0);
+  border-radius: 38px;
+  cursor: pointer;
+}
+
+input[type=range].slider__year::-ms-track {
+  background: transparent;
+  border-color: transparent;
+  border-width: 4.65px 0;
+  color: transparent;
+  width: 100%;
+  height: 7.5px;
+  cursor: pointer;
+}
+
+input[type=range].slider__year::-ms-fill-lower {
+  background: #0093e6;
+  border: 0;
+  border-radius: 12.6px;
+}
+
+input[type=range].slider__year::-ms-fill-upper {
+  background: rgba(0, 163, 255, 0.78);
+  border: 0;
+  border-radius: 12.6px;
+}
+
+input[type=range].slider__year::-ms-thumb {
+  width: 15px;
+  height: 15px;
+  background: #ffffff;
+  border: 1.8px solid rgba(0, 0, 30, 0);
+  border-radius: 38px;
+  cursor: pointer;
+  margin-top: 0px;
+  /*Needed to keep the Edge thumb centred*/
+}
+
+input[type=range].slider__year:focus::-ms-fill-lower {
+  background: rgba(0, 163, 255, 0.78);
+}
+
+input[type=range].slider__year:focus::-ms-fill-upper {
+  background: #1aacff;
+}
+
+/*TODO: Use one of the selectors from https://stackoverflow.com/a/20541859/7077589 and figure out
+how to remove the virtical space around the range input in IE*/
+@supports (-ms-ime-align: auto) {
+  /* Pre-Chromium Edge only styles, selector taken from hhttps://stackoverflow.com/a/32202953/7077589 */
+  input[type=range].slider__year {
+    margin: 0;
+    /*Edge starts the margin from the thumb, not the track as other browsers do*/
+  }
+}
+.slider__title {
+  color: #848484;
+  font-size: 15px;
+  margin-left: 33px;
+  padding-top: 7.5px;
+  font-family: SFMONOsemibold;
 }
 
 /* Remember to add new modules here:
