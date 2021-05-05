@@ -424,6 +424,119 @@ how to remove the virtical space around the range input in IE*/
   margin-left: 33px;
   padding-top: 7.5px;
   font-family: SFMONOsemibold;
+.--primary {
+  margin-left: 54px;
+  margin-right: 54px;
+}
+
+.text.--info {
+  font-family: SFMONOregular;
+  font-size: 14;
+  color: #707070;
+}
+
+.text.--party {
+  font-family: SFMONOregular;
+  font-size: 22px;
+  color: #707070;
+  border: none;
+}
+
+.text.--players {
+  font-family: SFMONOregular;
+  font-size: 14px;
+  color: #707070;
+}
+
+.QR {
+  height: 285;
+  width: 274px;
+}
+
+.invitationBtn {
+  background: #00A3FF;
+  font-size: 20px;
+  font-family: SFMONOregular;
+  border: none;
+  border-radius: 6px;
+  height: 44px;
+  width: 274px;
+  color: white;
+}
+
+.button {
+  background: linear-gradient(135deg, #00e77e 0%, #00e85d 100%);
+  width: 274px;
+  border-radius: 5px;
+  font-size: 1rem;
+  height: 50px;
+  line-height: 35px;
+  text-align: center;
+  font-family: SFMONOmedium;
+  border: none;
+  align-items: center;
+  margin-top: 241px;
+}
+
+.header {
+  background: transparent;
+  position: relative;
+  left: 25px;
+  top: 25px;
+}
+.movies {
+  height: 560px;
+}
+
+.tarzan {
+  position: relative;
+  left: 0px;
+  top: 0px;
+  z-index: -2;
+  margin-top: 40px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.tenet {
+  position: relative;
+  left: 0px;
+  top: -430px;
+  z-index: -1;
+  margin-top: 55px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.druk {
+  position: relative;
+  left: 0px;
+  top: -930px;
+  z-index: 0;
+  margin-top: 70px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.Footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+.dislikeBtn {
+  border: none;
+  padding: 0;
+  background-color: transparent;
+}
+
+.likeBtn {
+  border: none;
+  padding: none;
+  background-color: transparent;
 }
 
 /* Remember to add new modules here:
@@ -494,7 +607,6 @@ table {
 .color.--primary {
   background: linear-gradient(135deg, #142c2b 0%, #1d1d35 100%);
   height: 100%;
-  margin: 0;
   background-repeat: no-repeat;
   background-attachment: fixed;
 }
@@ -558,7 +670,10 @@ table {
 .popcorntime__logo {
   width: 80px;
   height: 80px;
-  padding: 42px 155px 0px 155px;
+  margin-top: 42px;
+  display: flex;
+  flex-direction: row;
+  margin-left: 101px;
 }
 
 /* this enables the usage of all variables and mixins from the general folder */

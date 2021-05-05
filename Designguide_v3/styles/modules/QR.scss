@@ -1,0 +1,60 @@
+ .--primary{
+     margin-left: 54px;
+     margin-right: 54px;
+ }
+
+ //Font
+ .text.--info{
+     font-family: SFMONOregular;
+     font-size: 14;
+     color: #707070;
+ }
+
+ .text.--party{
+    font-family: SFMONOregular;
+    font-size: 22px;
+    color: #707070;
+    border: none;
+ }
+
+ .text.--players{
+    font-family: SFMONOregular;
+    font-size: 14px;
+    color: #707070;
+ }
+
+
+ //QR
+ .QR{
+     height: 285;
+     width: 274px;
+ }
+
+
+
+
+ // Invitation button
+ .invitationBtn{
+    background: #00A3FF; 
+    font-size: 20px;
+    font-family: SFMONOregular;
+    border: none;
+    border-radius: 6px;
+    height: 44px;
+    width: 274px;
+    color: white;
+ }
+
+ .button {
+    background: linear-gradient( 135deg, #00e77e 0%, #00e85d 100%);
+    width: 274px;
+    border-radius: 5px;
+    font-size: 1rem;
+    height: 50px;
+    line-height: 35px;
+    text-align: center;
+    font-family: SFMONOmedium;
+    border: none;
+    align-items: center;
+    margin-top: 241px;
+ }
