@@ -447,9 +447,9 @@ how to remove the virtical space around the range input in IE*/
 
 .text.--players {
   font-family: SFMONOregular;
-  font-size: 14px;
   color: #707070;
   margin-top: 10px;
+  font-size: 17px;
 }
 
 .QR {
