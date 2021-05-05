@@ -2,6 +2,18 @@
   font-family: SFMONOregular;
 }
 
+.bodybtn {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 100vw;
+  height: 100vh;
+}
+
+.scroll {
+  overflow-y: scroll;
+}
+
 .title {
   font-family: SFMONOregular;
   text-align: center;
@@ -763,9 +775,10 @@ table {
   font-family: SFMONOmedium;
   border: none;
   align-items: center;
+  margin-top: 0px;
 }
 
 .--active {
-  background-color: #00A3FF;
+  background-color: #00a3ff;
   border-color: transparent;
 }
