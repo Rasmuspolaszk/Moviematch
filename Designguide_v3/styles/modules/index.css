@@ -516,6 +516,11 @@ HEAD .text.--info {
   margin-top: 46px;
 }
 
+.invitecontainer {
+  width: 274px;
+  margin: auto;
+}
+
 .invitationBtn {
   background: #00a3ff;
   font-size: 20px;

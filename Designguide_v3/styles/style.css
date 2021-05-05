@@ -516,6 +516,11 @@ HEAD .text.--info {
   margin-top: 46px;
 }
 
+.invitecontainer {
+  width: 274px;
+  margin: auto;
+}
+
 .invitationBtn {
   background: #00a3ff;
   font-size: 20px;
@@ -775,10 +780,4 @@ table {
   font-family: SFMONOmedium;
   border: none;
   align-items: center;
-  margin-top: 0px;
-}
-
-.--active {
-  background-color: #00a3ff;
-  border-color: transparent;
 }
