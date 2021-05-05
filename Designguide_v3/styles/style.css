@@ -223,6 +223,11 @@
   color: #707070;
 }
 
+.QR {
+  height: 285;
+  width: 274px;
+}
+
 .invitationBtn {
   background: #00A3FF;
   font-size: 20px;
@@ -232,6 +237,81 @@
   height: 44px;
   width: 274px;
   color: white;
+}
+
+.button {
+  background: linear-gradient(135deg, #00e77e 0%, #00e85d 100%);
+  width: 274px;
+  border-radius: 5px;
+  font-size: 1rem;
+  height: 50px;
+  line-height: 35px;
+  text-align: center;
+  font-family: SFMONOmedium;
+  border: none;
+  align-items: center;
+  margin-top: 241px;
+}
+
+.header {
+  background: transparent;
+  position: relative;
+  left: 25px;
+  top: 25px;
+}
+.movies {
+  height: 560px;
+}
+
+.tarzan {
+  position: relative;
+  left: 0px;
+  top: 0px;
+  z-index: -2;
+  margin-top: 40px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.tenet {
+  position: relative;
+  left: 0px;
+  top: -430px;
+  z-index: -1;
+  margin-top: 55px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.druk {
+  position: relative;
+  left: 0px;
+  top: -930px;
+  z-index: 0;
+  margin-top: 70px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.Footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+.dislikeBtn {
+  border: none;
+  padding: 0;
+  background-color: transparent;
+}
+
+.likeBtn {
+  border: none;
+  padding: none;
+  background-color: transparent;
 }
 
 /* Remember to add new modules here:
