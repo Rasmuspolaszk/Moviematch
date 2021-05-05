@@ -234,6 +234,72 @@
   color: white;
 }
 
+.header {
+  background: transparent;
+  position: relative;
+  top: 25px;
+}
+.header__burgermenu {
+  background: transparent;
+  border: none;
+  width: 50px;
+}
+
+.movies {
+  height: 560px;
+}
+
+.tarzan {
+  position: relative;
+  left: 0px;
+  top: 0px;
+  z-index: -2;
+  margin-top: 40px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.tenet {
+  position: relative;
+  left: 0px;
+  top: -430px;
+  z-index: -1;
+  margin-top: 55px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.druk {
+  position: relative;
+  left: 0px;
+  top: -930px;
+  z-index: 0;
+  margin-top: 70px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.Footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+.dislikeBtn {
+  border: none;
+  padding: 0;
+  background-color: transparent;
+}
+
+.likeBtn {
+  border: none;
+  padding: none;
+  background-color: transparent;
+}
+
 /* Remember to add new modules here:
     @forward 'module_name';
 */
@@ -365,7 +431,10 @@ table {
 .popcorntime__logo {
   width: 80px;
   height: 80px;
-  padding: 42px 155px 0px 155px;
+  margin-top: 42px;
+  display: flex;
+  flex-direction: row;
+  margin-left: 101px;
 }
 
 /* this enables the usage of all variables and mixins from the general folder */

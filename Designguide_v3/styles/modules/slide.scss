@@ -1,10 +1,13 @@
 .header {
   background: transparent;
   position: relative;
-  left: 25px;
+
   top: 25px;
 
   &__burgermenu {
+    background: transparent;
+    border: none;
+    width: 50px;
   }
 }
 
