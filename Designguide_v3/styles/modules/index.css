@@ -204,7 +204,7 @@
   margin-right: 54px;
 }
 
-.text.--info {
+.text.--break {
   font-family: SFMONOregular;
   font-size: 14;
   color: #707070;
@@ -215,17 +215,20 @@
   font-size: 22px;
   color: #707070;
   border: none;
+  margin-bottom: 4px;
 }
 
 .text.--players {
   font-family: SFMONOregular;
   font-size: 14px;
   color: #707070;
+  margin-top: 10px;
 }
 
 .QR {
-  height: 285;
+  height: 285px;
   width: 274px;
+  margin-top: 46px;
 }
 
 .invitationBtn {
@@ -237,6 +240,7 @@
   height: 44px;
   width: 274px;
   color: white;
+  margin-bottom: 18px;
 }
 
 .button {
@@ -250,15 +254,27 @@
   font-family: SFMONOmedium;
   border: none;
   align-items: center;
-  margin-top: 241px;
+  margin-top: 120px;
+}
+
+.breakSection {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 17px;
+  margin-top: 10px;
 }
 
 .header {
   background: transparent;
   position: relative;
-  left: 25px;
   top: 25px;
 }
+.header__burgermenu {
+  background: transparent;
+  border: none;
+  width: 50px;
+}
+
 .movies {
   height: 560px;
 }
