@@ -139,6 +139,23 @@ table {
   margin-left: 0px;
 }
 
+.footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  margin-top: 25px;
+}
+.footer__dislikeBtn {
+  border: none;
+  padding: 0;
+  background-color: transparent;
+}
+.footer__likeBtn {
+  border: none;
+  padding: none;
+  background-color: transparent;
+}
+
 /* this enables the usage of all variables and mixins from the general folder */
 .button {
   background: linear-gradient(135deg, #00e77e 0%, #00e85d 100%);

@@ -49,3 +49,22 @@
   margin-right: 0px;
   margin-left: 0px;
 }
+
+.footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  margin-top: 25px;
+
+    &__dislikeBtn {
+    border: none;
+    padding: 0;
+    background-color: transparent;
+}
+
+    &__likeBtn {
+    border: none;
+    padding: none;
+    background-color: transparent;
+}
+}
