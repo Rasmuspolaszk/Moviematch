@@ -144,6 +144,7 @@ table {
   flex-direction: row;
   justify-content: space-evenly;
   margin-top: 25px;
+  background: transparent;
 }
 .footer__dislikeBtn {
   border: none;

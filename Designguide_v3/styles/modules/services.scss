@@ -8,6 +8,7 @@
   justify-content: space-between;
   width: 100vw;
   height: 100vh;
+  
 }
 
 .scroll {
@@ -78,9 +79,14 @@
   }
 }
 
+.transparent{
+  background: transparent;
+}
+
 .save {
   display: flex;
   justify-content: center;
   margin-bottom: 30px;
   margin-top: 30px;
+  background: transparent;
 }
