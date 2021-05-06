@@ -7,7 +7,7 @@
     <title>Info screen</title>
     <link rel="stylesheet" href="../styles/style.css">
 </head>
-<body class="infobody color --primary">
+<body class="color --primary">
 
 <section class="bodybtn">
 <section class="scroll">
@@ -20,49 +20,56 @@
         </article>
 
     <section class="movieinfo">
-        <article class="titleinfo">
-            <h2 class="titleinfo__title">Druk</h2>
-            <img class="titleinfo__img" src="/Media/Viaplay_logo.svg" alt="Viaplay">
+        <article class="movie">
+            <h2 class="movie__title"></h2>
+            <img class="movie__img" src="/Media/Viaplay_logo.svg" alt="Viaplay">
         </article>
 
         <article >
-            <p class="description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero, libero voluptas quae omnis possimus aut nemo nihil hic amet sed delectus eveniet nulla pariatur natus, asperiores, ut necessitatibus optio porro?</p>
+            <p class="movie__description"></p>
         </article>
 
         <article class="directorinfo">
             <p>Director:</p>
-            <p class="directorinfo__director">loreeihvbeiqv</p>
+            <p class="directorinfo__director movie__director"></p>
         </article>
         <article class="writerinfo">
             <p>Writers: </p>
-            <p class="writerinfo__writers">eivbe orverb</p>
+            <p class="writerinfo__writers movie__writer"></p>
         </article>
 
         <article class="imdbinfo">
             <img src="/Media/IMDB.svg" alt="imdb logo">
             <img class="imdbinfo__star" src="/Media/IMDBstar.svg" alt="star">
+            <p class="movie__rating"></p>
         </article>
 
         <article class="castinginfo">
-            <h4 class="castinginfo__title">Cast:</h4>
+            <h3 class="castinginfo__title">Cast</h4>
             <article class="castinginfo__img">
                 <article class="castinginfo__actors">
                     <img class="castinginfo__circle" src="/Media/madsmikkelsencircle.svg" alt="">
-                    <p class="castinginfo__name"> mads mikkelsen </p>
+                    <p class="castinginfo__name"> Mads <br> Mikkelsen </p>
                 </article>
+                <article class="castinginfo__actors">
                     <img class="castinginfo__circle" src="/Media/Thomasbolarsencircle.svg" alt="">
+                    <p class="castinginfo__name">Thomas <br> Bo Larsen</p>
+                </article>
+                <article class="castinginfo__actors">
                     <img class="castinginfo__circle" src="/Media/avatarcircle.svg" alt="">
+                    <p class="castinginfo__name">Magnus <br> Millang</p>
+                </article>
             </article>
         </article>
     </section>
 </section>
-    <section class="footer">
-        <button class="footer__dislikeBtn"><img src="/Media/Dislike.svg" alt="Dislike"></button>
+<footer class="footer">
+    <button class="footer__dislikeBtn"><img src="/Media/Dislike.svg" alt="Dislike"></button>
+    <a href="match.html">
         <button class="footer__likeBtn"><img src="/Media/Like.svg" alt="Like"></button>
-    </section>
+    </a>
+</footer>
 </section>
-
-
-
+<script src="../Java/info.js"></script>
 </body>
 </html> 
