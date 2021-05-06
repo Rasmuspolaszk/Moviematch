@@ -73,11 +73,16 @@
   margin-left: 7px;
 }
 
+.transparent {
+  background: transparent;
+}
+
 .save {
   display: flex;
   justify-content: center;
   margin-bottom: 30px;
   margin-top: 30px;
+  background: transparent;
 }
 
 .promotext--semibold {
@@ -598,6 +603,128 @@ HEAD .text.--info {
   top: -930px;
   z-index: 0;
   margin-top: 70px;
+}
+
+.bodybtn {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 100vw;
+  height: 100vh;
+}
+
+.scroll {
+  overflow-y: scroll;
+}
+
+.frontposter {
+  width: 390px;
+}
+.frontposter__img {
+  width: 390px;
+}
+
+.movieinfo {
+  margin-left: 15px;
+}
+
+.titleinfo {
+  color: white;
+  font-family: SFMONOregular;
+  font-size: 25px;
+  display: flex;
+  flex-direction: row;
+  margin-top: 5px;
+}
+.titleinfo__img {
+  margin-left: 10px;
+}
+
+.back {
+  background: transparent;
+  position: relative;
+  padding: 0px;
+  margin-top: -25px;
+  margin-left: 300px;
+}
+.back__btn {
+  background: transparent;
+  border: none;
+  width: 50px;
+}
+.back__img {
+  background: transparent;
+  border: none;
+}
+
+.description {
+  color: white;
+  font-family: SFMONOlight;
+  font-size: 12px;
+  width: 280px;
+  margin-top: 10px;
+}
+
+.directorinfo {
+  color: #AAAAAA;
+  font-family: SFMONOlight;
+  font-size: 12px;
+  margin-top: 10px;
+  display: flex;
+  flex-direction: row;
+}
+.directorinfo__director {
+  color: white;
+  margin-left: 15px;
+}
+
+.writerinfo {
+  color: #AAAAAA;
+  font-family: SFMONOlight;
+  font-size: 12px;
+  margin-top: 10px;
+  display: flex;
+  flex-direction: row;
+}
+.writerinfo__writers {
+  color: white;
+  margin-left: 15px;
+}
+
+.imdbinfo {
+  margin-top: 15px;
+}
+.imdbinfo__star {
+  margin-left: 5px;
+  margin-bottom: 2.5px;
+}
+
+.castinginfo {
+  margin-top: 10px;
+}
+.castinginfo__title {
+  color: white;
+  font-family: SFMONOlight;
+  font-size: 12px;
+}
+.castinginfo__img {
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 20px;
+}
+.castinginfo__circle {
+  margin-top: 10px;
+  margin-left: 10px;
+  height: 75px;
+}
+.castinginfo__actors {
+  display: flex;
+  flex-direction: column;
+}
+.castinginfo__name {
+  color: white;
+  font-family: SFMONOlight;
+  font-size: 12px;
 }
 
 /* Remember to add new modules here:
